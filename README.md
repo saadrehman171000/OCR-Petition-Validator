@@ -1,4 +1,4 @@
-# Petition Validator Pro
+# OCR Petition Validator Pro
 
 A professional web application for validating and processing petition signatures with advanced OCR capabilities, automated data extraction, and Excel integration. Built for efficient petition management and verification.
 
@@ -195,7 +195,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Saad Rehman - saadrehman171000@gmail.com  
+Saad Rehman - saadrehman1710000@gmail.com  
 Project Link: https://github.com/saadrehman171000/OCR-Petition-Validator
 
 ## 🔮 Future Enhancements
