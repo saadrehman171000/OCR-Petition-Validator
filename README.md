@@ -75,57 +75,74 @@ git clone https://github.com/saadrehman171000/OCR-Petition-Validator
 cd OCR-Petition-Validator
 ```
 
-2. **Backend Setup**
+2. **Create Required Directories**
+```bash
+mkdir uploads processed_images screenshots data Excelsheet negative_results output static
+```
+
+3. **Backend Setup**
 ```bash
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-3. **Frontend Setup**
+4. **Frontend Setup**
 ```bash
 cd frontend
 npm install
 ```
 
-4. **Environment Configuration**
+5. **Environment Configuration**
 
-Create `.env` files in both backend and frontend directories:
-
-Backend `.env`:
+Create `.env` file in the root directory:
 ```env
 MONGODB_URI=your_mongodb_uri
 GOOGLE_APPLICATION_CREDENTIALS=path/to/credentials.json
 FLASK_ENV=development
 ```
 
+6. **Additional Setup**
+- Place the Excel template file (`Copy of MASTER TEMPLATE.xlsx`) in the root directory
+- Ensure ChromeDriver (`chromedriver.exe`) is in the root directory
+- Configure ZIP code data using `zip_county.csv`
+
 ## 📁 Project Structure
 
 ```
-petition-validator/
+OCR-Petition-Validator/
 ├── frontend/                # React frontend application
-│   ├── src/
-│   │   ├── pages/
-│   │   │   ├── combined_page.js
-│   │   │   ├── combined_page.css
-│   │   │   ├── SearchPage.js
-│   │   │   ├── SearchPage.css
-│   │   │   └── LoginPage.js
-│   │   └── components/
-│   │       └── SearchForm.js
-├── backend/
-│   ├── app.py               # Main Flask application
-│   ├── automation.py        # Automation logic
-│   ├── check_petition.py    # Petition verification
-│   ├── models.py            # Database models
-│   ├── helpers.py           # Utility functions
-│   └── detection.py         # Image detection logic
-├── data/                    # Data storage
-├── Excelsheet/              # Excel templates and outputs
-├── processed_images/        # Processed signature images
-├── screenshots/             # Search result screenshots
-├── uploads/                 # Temporary upload storage
-└── requirements.txt         # Python dependencies
+│   └── src/
+│       ├── pages/
+│       │   └── combined_page.js/css
+│       └── components/
+│           └── SearchForm.js
+├── .chainlit/              # Chainlit configuration
+├── data/                   # Data storage
+├── dependencies/           # Project dependencies
+├── Excelsheet/            # Excel templates and outputs
+├── negative_results/       # Failed processing results
+├── output/                # Generated outputs
+├── processed_images/      # OCR processed images
+├── screenshots/           # Search result screenshots
+├── static/               # Static assets
+├── uploads/              # Temporary upload storage
+├── app.py               # Main Flask application
+├── automation.py        # Automation logic
+├── automation_helper.py # Automation utility functions
+├── chainlit.md         # Chainlit documentation
+├── check_excel.py      # Excel processing logic
+├── check_petition.py   # Petition verification
+├── constants.py        # Application constants
+├── constants_helper.py # Constants utility functions
+├── database_operations.py # Database operations
+├── detection.py        # Image detection logic
+├── fields.py          # Field definitions
+├── helpers.py         # Utility functions
+├── models.py          # Database models
+├── text_extraction.py # Text extraction logic
+├── requirements.txt   # Python dependencies
+└── zip_county.csv    # ZIP code reference data
 ```
 
 ## 🔑 Key Features Explained
@@ -188,3 +205,18 @@ Project Link: https://github.com/saadrehman171000/OCR-Petition-Validator
 - Enhanced reporting features
 - Mobile responsiveness
 - API documentation
+
+## 🚀 Running the Application
+
+1. **Start Backend Server**
+```bash
+python app.py
+```
+
+2. **Start Frontend Development Server**
+```bash
+cd frontend
+npm start
+```
+
+3. Access the application at `http://localhost:3000`
