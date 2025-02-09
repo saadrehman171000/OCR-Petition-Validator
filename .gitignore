@@ -69,4 +69,16 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
-*.bak 
+*.bak
+
+# Add these lines to ensure credentials are never committed
+.chainlit/translations/*.json
+**/credentials/*.json
+*.json
+!package.json
+!package-lock.json
+
+# Chainlit
+.chainlit/
+.chainlit/**/*
+.chainlit/translations/ 
