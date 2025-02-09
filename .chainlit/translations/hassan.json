@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "delta-button-420320",
+  "private_key_id": "9f3f8a362ad7f14c030c03c8726ad57a04e531a1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCTRZ+qyjvlxvCV\nuSmOA8ozecoJwJH6z0AcS2/ipgH4ZOtR3RHn6zZKT0k3Mwqk9W7bZgQrOybRCQ6k\n3a2JR3qDET5rkr5tl+/dI+sEHcotl/qIDcu+jumsZEbIEyg8GtLNEDzWHv1ltMVA\nXLAWHiLUO0CATeQ2S1sPcI45kRBN25X8yFxSkrIlMUgUT+WCSdhpRkl2e1isJf4/\n61Jl3Uq7RzjpZn40Pb977xe2u61C3fToEsKioIltqkdKSud6Th8GilYjOrdHOxc4\n/s3rafA3mXt7EF3gVG/QP4A3PUXErMAgJl4fLufzKvVhEXK6RAsRxoOx3wuZk9zs\ne/c60CutAgMBAAECggEAH6WPeQD6PBcy7cmbT2QrGEKsksnp1K6ihTIEufyYYcs1\n8iKCTYby5KcDAbSbLfV7u/PBI5UTc0nx9qWYO+67Od0Dv9QJzb0fkzK7tue74W5O\nLNxiEvHc7umheC79r2TINb6uhAimxStCU+FXCXmyXE7bPnb+elhZGglC1sYAbepV\naguoxoBsnn3XiwpBY8j+L68F968i+0CD7j1KHvWbfJL4NNv/7YFxx2U6q23B8Hy7\nCl9rr+FbmUfqB17A1WWY072Ko9O/9L+WRers9zk5Jl9IC9RtKR2wkM6t+AhwIZI5\nX65PKOkMy5XIT6li79a9uhvJ94AvkJ5uR9K4QMWlQQKBgQDGNqjh79/hBmTSQK7y\nRmFKZYVnbH3p8Iu+0PzfJ/kzY2xEl79Io6HZqxka6RM5cKvXKwHoFKkjyzPgCK/o\n5XciEdS38kxYNA6okUFnj/StdfM4550bf1HsXOov2k1RdQgxgeioDH4XIOO71Nw8\ncxM6xtq26S95l6LJZYQ4oGxu3QKBgQC+NQZ37bhEn98zerSzpZaJT/zpsn9ki82+\nGglUK88Rwl6oVpgELzRsdnR61lbc9TZlhXgjxRTDjGdBZ5VIauCU/XbqUEyXdC3s\nJYcRbVwhzqOLP9ddi4yGtqjvwKLN3VVbVwHonzPPs3TDLtn3Tjs8zK8e3smU8BKn\nG/2UCiGbEQKBgQCS1YkUHqPFyfvEOYCgH30RJNXHgPph4/1R9PVuxuj3pY5d3eAp\nCnbqjbJCWikQoyPZeJWn/C40QuMB8s2FhP9U8MqZHdhqet3lB/3gnybNnRP5srKS\n3SWuKEKgAmLGliDks+zLGL4LmiS6T3x7F3BGWWtKlsHBnJBOC3MAk+7fzQKBgAK+\n3TMJ+Wj0LdKeaNFXCI8+2lW9P92BrxyZX50ZbMnC1n7zkQoubEFMjG3hfit+VqSs\ngolxpNUVx7/H8P20nT1JU1gahKCDCs6n1AVKYNQUGYQ/DarKAuNG67VaQH9cPIku\n/lYPRj4vRvYyTO8m7+/2vGhjquE9fedvnf9vDgEhAoGAObZcFoi3Purdwba1A1gc\nUrIaGHfku5MXjf0sYNxw8jXxy7fdPC+kbMkmBuhPSRyPK1+sjki64ciNC5NYIriW\npssLNxYxrgxA4CvRXuqyzEAxPz3mHz7G8R9Zbi9b7dARMUe1e7I1FH7v8+ESb6qm\nhIWBM9wtd10LVeWW8LkTLRo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "hassan-ocr@delta-button-420320.iam.gserviceaccount.com",
+  "client_id": "101949796198403831025",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hassan-ocr%40delta-button-420320.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

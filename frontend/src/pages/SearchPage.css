@@ -1,0 +1,134 @@
+.search-page {
+  transform: translateX(-160px);
+  display: flex;
+  justify-content: space-between;
+  gap: 40px; /* Decreased gap for better fitting */
+  padding: 40px;
+  width: 160%; /* Set to 100% to ensure it fits within the viewport */
+  height: 95vh;
+  background-color: #f4f4f4;
+  overflow-y: auto;
+}
+
+.left-column {
+  flex: 0 0 48%; /* Adjusted width for left column */
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 100%; /* Ensure the left column spans the full height */
+}
+
+.right-column {
+  position: relative; /* Make sure the container is positioned */
+  flex: 0 0 45%;
+  max-height: 350px;
+  overflow-y: auto;
+  padding-left: 30px;
+  border-left: 2px solid #e0e0e0;
+}
+
+.go-back-button {
+  position: fixed; /* Fixed position relative to the page */
+  top: 20px; /* Adjust the top position */
+  right: 20px; /* Adjust the right position */
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #f44336; /* Red color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.go-back-button:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
+.no-results-alert {
+  color: red;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+
+
+h1 {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+h2 {
+  color: #fcfafa;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.results-container {
+  max-height: 400px; /* Decreased height for the results container */
+  overflow-y: auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 14px;
+  color: #f0eeee;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.loading, .error, .no-results {
+  text-align: center;
+  color: #666;
+  padding: 20px;
+}
+
+.error {
+  color: #d32f2f;
+}
+

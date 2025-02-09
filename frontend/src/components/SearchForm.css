@@ -1,0 +1,126 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0px; /* Completely removed the gap between form elements */
+}
+
+form div {
+  margin-bottom: 0px; /* Removed margin between individual input fields */
+}
+
+label {
+  font-size: 13px; /* Slightly smaller font size for labels */
+  color: #fcfafa;
+  margin-bottom: 1px; /* Minimal margin for labels */
+  display: block;
+}
+
+input, select {
+  width: 100%;
+  padding: 6px; /* Reduced padding for inputs */
+  font-size: 14px; /* Slightly smaller font size for inputs */
+  border: 1px solid #ddd;
+  border-radius: 3px; /* Slightly smaller border radius */
+  transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+button {
+  padding: 8px; /* Further reduced padding for button */
+  font-size: 14px; /* Slightly smaller font size for button */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px; /* Smaller border radius */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 6px; /* Reduced margin for button */
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.search-select {
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 24px;
+  border: 2px solid #000;
+  border-radius: 15px;
+  background-color: white;
+  margin-bottom: 15px;
+  height: 60px;
+  appearance: none;  /* Remove default dropdown arrow */
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 20px;
+}
+
+.search-select option {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.method-description {
+  margin-top: 8px;
+  padding: 12px;
+  color: #000;  /* Black text instead of white */
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.search-method {
+  margin-bottom: 20px;
+}
+
+.search-method label {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Style for the form groups */
+.search-form-group {
+  margin-bottom: 30px;  /* More space between form groups */
+}
+
+.search-form-group label {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.search-form-group input {
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 20px;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  background: white;
+  height: 60px;  /* Increased height */
+}
+
+.search-form-group input::placeholder {
+  color: #999;  /* Lighter gray for placeholder text */
+  font-size: 20px;
+}
+
+.search-button {
+  width: 100%;
+  padding: 15px;
+  font-size: 24px;
+  background-color: #007AFF;  /* iOS blue color */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  height: 60px;
+}
