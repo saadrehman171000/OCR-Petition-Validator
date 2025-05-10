@@ -1,0 +1,94 @@
+/* chatinterface.css */
+
+/* Chat interface container */
+.chat-interface {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+/* Chat window styles */
+.chat-window {
+  flex-grow: 1; /* Fills the available height */
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #343541; /* Dark theme background */
+}
+
+/* Style for user messages */
+.user {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0;
+}
+
+.user p {
+  max-width: 70%;
+  background-color: #10a37f;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px 10px 0 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+/* Style for bot messages */
+.bot {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 0;
+}
+
+.bot p {
+  max-width: 70%;
+  background-color: #40414f;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px 10px 10px 0;
+  font-size: 14px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+/* Message bar sticks to the bottom */
+.message-bar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #40414f;
+  border-top: 1px solid #525367;
+}
+
+.message-bar input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #525367;
+  color: white;
+  margin-right: 10px;
+}
+
+.message-bar input::placeholder {
+  color: #a8a8b3;
+}
+
+.message-bar input:focus {
+  outline: none;
+}
+
+.message-bar button {
+  padding: 10px 20px;
+  background-color: #10a37f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.message-bar button:hover {
+  background-color: #0e8f6b;
+}
