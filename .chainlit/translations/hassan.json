@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "delta-button-420320",
+  "private_key_id": "93df8f462dd4bfcb2c0eae92098040ccadfc04f6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDMuqe1ruKNpXvD\nGmML7sSPO+zrEJ93UJM2DX7n6AgVqEfIWb+qAa02MuF6X+SnFxtVApzjHm1X5YYW\nslpCMwPzUbcgHHh2bC0BF/8q4FcTmk5wtKGYsK42zXtH11UNQc5riglwRRazjgc9\nkAY+RlewYHDDWLk2fZsHCVZGKxOEXeN7uXjvtzjEtxS43bpUlSrk6whtJEw1ajii\nCjlkghpQQ018mUpsQFR7I/xfd1PrAIH6VztN7jv3XP3rK5gQQUgU4ltfAyFq9Ky0\nrTiymDbSaR/oawq1f4SkkK5WBaHqBllaPEvvw9ZGeOIBZcyGlA4ie6IubHTBZkl4\nVCmDJXihAgMBAAECggEAC1YVlcbwjA6Fqcdtrxo3n5pzng4zqk1s+AarctzDX9b2\nMexITjoICj2AhJXH6TmraDERbgvABb3eR3uflFVTVWyTrY9DW1lWQkkpdl6+65q1\nLQ1PemSOzQGNSeyCQjjqh264uD2sdLZQr9JoX2074KFtH7VWEiPxNY9JNpr0L8rS\nxAyUHQZ7pLlvKsL2LFPOLGo5jwWpGXsdd0omzuJT6I4OTtSAe7O6ny+qwY5YhP4S\nrHfuMR8VEjJot7iHTnO5EF7UDBOcrz0gcG4LAkxEtLAAY/Rg0UPYitSuBk8OCZcO\ncjqsTmSLuMVo/tTLi+qqget3ZPqmFJPlYIR6zH4CDQKBgQDoAbF97en8vzGx/h4p\nUVBVB9byfLChedyEYtbuI/fbZXIncv0pS0aAU7AlmnayjqHS+Ug+9wgnhS8+0tXS\nEQWGel/hk9bgkld/UYwkaAaiTM6Cr8IuUockabhIYujB6nMCeyRLD9qzfMZFoSda\nLKqI4KzP5DEcQPCb7lFweR9hZQKBgQDh5sxXYLBgMLxdd0r3iN6v3B8cMcW1Grz3\nfQS3SFZc+jvEwkYAfNPUViHvXLB8iUhTsXKYTcFypPLXjBTGysCMmbY+WtlVWA3a\niN2qpP+2KbeIKTiHbeAdxrmmq0x92Vh3qQ3dtB5vmCYGu+5mKtgSbxrsMgUv1yeV\nHQGK2iZEjQKBgGTfB5qm7Er1ndezks2ICxNNO0lmqS0r3JK6npQfk04Sh1Vbi3J+\nxgJZYIaY5+6uUPF3bM/je+oi3+3CoTCaMfrMDg/3xT8SoXQ7smDJ0ciS+F6dqCGX\nxCYyyOrABk75blOv0pHILOBI6bOwY3mzXdnxRXGF10xfd710Gnh6UQh5AoGAUKwH\nVTzmP7On0QkE8JkkTVEimwL7Q82kpg0zXfCrRtDl/0IRlaL+UtnfjIdhT1gHSDwa\nXGGIL9TQFEGmOce2M3/BIUt4SY4EhIJUBtidqQQE0s9FrLeETZ3mNqr9ygOQIEty\n9DWamOeQzN7YKAws1Yhv6OGEEK2ZKRsOrfNxrxECgYAxkDj/OdAfZyHRxLxGjohH\nCYiEQWS0gxRwWzQk3i2iZBIm032vl/l9baN3ZqxWNPOGQpNnZu6jnrjYtrJHYPBa\nJHCTCZRrzfmgeMLKxDm6l8/YDUhofZqkQ78/tv03Ny0/1IH6wi/IkY8FcvygOINN\npU1qTI7EFu+R39N8gsPOPg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "vision-api@delta-button-420320.iam.gserviceaccount.com",
+  "client_id": "113605630498572915163",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vision-api%40delta-button-420320.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
